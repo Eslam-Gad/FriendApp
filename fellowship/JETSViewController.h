@@ -1,13 +1,16 @@
-//
-//  JETSViewController.h
-//  fellowship
-//
-//  Created by JETS on 9/8/19.
-//  Copyright (c) 2019 JETS. All rights reserved.
-//
 
-#import <UIKit/UIKit.h>
+
+#import "DB.h"
+#import "SignUP.h"
+#import "TabBarController.h"
+
 
 @interface JETSViewController : UIViewController
+
+@property (strong, nonatomic) IBOutlet UITextField *mail;
+
+@property (strong, nonatomic) IBOutlet UITextField *pass;
+@property (strong, nonatomic) IBOutlet UILabel *errorMsg;
+@property NSString *m;
 
 @end

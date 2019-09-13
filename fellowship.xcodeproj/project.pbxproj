@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D100A6D92325949900D9A1F1 /* Icon-60x60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D100A6D82325949900D9A1F1 /* Icon-60x60@3x.png */; };
+		D19FAC4323268D4100F6EFE8 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D19FAC4223268D4100F6EFE8 /* MapKit.framework */; };
 		D1CE556423258B8E00E454AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1CE556323258B8E00E454AE /* Foundation.framework */; };
 		D1CE556623258B8E00E454AE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1CE556523258B8E00E454AE /* CoreGraphics.framework */; };
 		D1CE556823258B8E00E454AE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1CE556723258B8E00E454AE /* UIKit.framework */; };
@@ -21,6 +23,16 @@
 		D1CE558523258B8E00E454AE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1CE556723258B8E00E454AE /* UIKit.framework */; };
 		D1CE558D23258B8E00E454AE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D1CE558B23258B8E00E454AE /* InfoPlist.strings */; };
 		D1CE558F23258B8E00E454AE /* fellowshipTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D1CE558E23258B8E00E454AE /* fellowshipTests.m */; };
+		D1D0D65B232A6FFA002FC183 /* DB.m in Sources */ = {isa = PBXBuildFile; fileRef = D1D0D65A232A6FFA002FC183 /* DB.m */; };
+		D1D0D65E232A701F002FC183 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D1D0D65C232A701F002FC183 /* libsqlite3.0.dylib */; };
+		D1D0D65F232A701F002FC183 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D1D0D65D232A701F002FC183 /* libsqlite3.dylib */; };
+		D1D0D662232A7A41002FC183 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = D1D0D661232A7A41002FC183 /* User.m */; };
+		D1D0D665232A80EF002FC183 /* SignUP.m in Sources */ = {isa = PBXBuildFile; fileRef = D1D0D664232A80EF002FC183 /* SignUP.m */; };
+		D1D0D668232ADAC7002FC183 /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1D0D667232ADAC7002FC183 /* TabBarController.m */; };
+		D1D0D66B232B04D9002FC183 /* profile.m in Sources */ = {isa = PBXBuildFile; fileRef = D1D0D66A232B04D9002FC183 /* profile.m */; };
+		D1D0D673232B1DC5002FC183 /* AnnotationClass.m in Sources */ = {isa = PBXBuildFile; fileRef = D1D0D672232B1DC5002FC183 /* AnnotationClass.m */; };
+		D1D1388D232BCC59008DF185 /* Update.m in Sources */ = {isa = PBXBuildFile; fileRef = D1D1388C232BCC59008DF185 /* Update.m */; };
+		D1D13893232C1371008DF185 /* AllUsers.m in Sources */ = {isa = PBXBuildFile; fileRef = D1D13892232C1371008DF185 /* AllUsers.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +46,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D100A6D82325949900D9A1F1 /* Icon-60x60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-60x60@3x.png"; path = "Images.xcassets/AppIcon.appiconset/Icon-60x60@3x.png"; sourceTree = "<group>"; };
+		D19FAC4223268D4100F6EFE8 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		D1CE556023258B8E00E454AE /* fellowship.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fellowship.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1CE556323258B8E00E454AE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D1CE556523258B8E00E454AE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +67,24 @@
 		D1CE558A23258B8E00E454AE /* fellowshipTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "fellowshipTests-Info.plist"; sourceTree = "<group>"; };
 		D1CE558C23258B8E00E454AE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D1CE558E23258B8E00E454AE /* fellowshipTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fellowshipTests.m; sourceTree = "<group>"; };
+		D1D0D659232A6FFA002FC183 /* DB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DB.h; sourceTree = "<group>"; };
+		D1D0D65A232A6FFA002FC183 /* DB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DB.m; sourceTree = "<group>"; };
+		D1D0D65C232A701F002FC183 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		D1D0D65D232A701F002FC183 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		D1D0D660232A7A41002FC183 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		D1D0D661232A7A41002FC183 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		D1D0D663232A80EF002FC183 /* SignUP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUP.h; sourceTree = "<group>"; };
+		D1D0D664232A80EF002FC183 /* SignUP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUP.m; sourceTree = "<group>"; };
+		D1D0D666232ADAC1002FC183 /* TabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TabBarController.h; path = ../../Project_ITI_Shorouk/PTripleT/PTripleT/TabBarController.h; sourceTree = "<group>"; };
+		D1D0D667232ADAC7002FC183 /* TabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TabBarController.m; path = ../../Project_ITI_Shorouk/PTripleT/PTripleT/TabBarController.m; sourceTree = "<group>"; };
+		D1D0D669232B04D9002FC183 /* profile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = profile.h; sourceTree = "<group>"; };
+		D1D0D66A232B04D9002FC183 /* profile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = profile.m; sourceTree = "<group>"; };
+		D1D0D672232B1DC5002FC183 /* AnnotationClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AnnotationClass.m; path = "../../My Project Eslam Gad/MapDemo/MapDemo/AnnotationClass.m"; sourceTree = "<group>"; };
+		D1D0D674232B1DD5002FC183 /* AnnotationClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AnnotationClass.h; path = "../../My Project Eslam Gad/MapDemo/MapDemo/AnnotationClass.h"; sourceTree = "<group>"; };
+		D1D1388B232BCC59008DF185 /* Update.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Update.h; sourceTree = "<group>"; };
+		D1D1388C232BCC59008DF185 /* Update.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Update.m; sourceTree = "<group>"; };
+		D1D13891232C1371008DF185 /* AllUsers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllUsers.h; sourceTree = "<group>"; };
+		D1D13892232C1371008DF185 /* AllUsers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllUsers.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +92,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1D0D65E232A701F002FC183 /* libsqlite3.0.dylib in Frameworks */,
+				D1D0D65F232A701F002FC183 /* libsqlite3.dylib in Frameworks */,
+				D19FAC4323268D4100F6EFE8 /* MapKit.framework in Frameworks */,
 				D1CE556623258B8E00E454AE /* CoreGraphics.framework in Frameworks */,
 				D1CE556823258B8E00E454AE /* UIKit.framework in Frameworks */,
 				D1CE556423258B8E00E454AE /* Foundation.framework in Frameworks */,
@@ -101,6 +136,9 @@
 		D1CE556223258B8E00E454AE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D1D0D65C232A701F002FC183 /* libsqlite3.0.dylib */,
+				D1D0D65D232A701F002FC183 /* libsqlite3.dylib */,
+				D19FAC4223268D4100F6EFE8 /* MapKit.framework */,
 				D1CE556323258B8E00E454AE /* Foundation.framework */,
 				D1CE556523258B8E00E454AE /* CoreGraphics.framework */,
 				D1CE556723258B8E00E454AE /* UIKit.framework */,
@@ -115,10 +153,27 @@
 				D1CE557223258B8E00E454AE /* JETSAppDelegate.h */,
 				D1CE557323258B8E00E454AE /* JETSAppDelegate.m */,
 				D1CE557523258B8E00E454AE /* Main.storyboard */,
+				D100A6D82325949900D9A1F1 /* Icon-60x60@3x.png */,
 				D1CE557823258B8E00E454AE /* JETSViewController.h */,
 				D1CE557923258B8E00E454AE /* JETSViewController.m */,
 				D1CE557B23258B8E00E454AE /* Images.xcassets */,
 				D1CE556A23258B8E00E454AE /* Supporting Files */,
+				D1D0D659232A6FFA002FC183 /* DB.h */,
+				D1D0D65A232A6FFA002FC183 /* DB.m */,
+				D1D0D660232A7A41002FC183 /* User.h */,
+				D1D0D661232A7A41002FC183 /* User.m */,
+				D1D0D663232A80EF002FC183 /* SignUP.h */,
+				D1D0D664232A80EF002FC183 /* SignUP.m */,
+				D1D0D667232ADAC7002FC183 /* TabBarController.m */,
+				D1D0D666232ADAC1002FC183 /* TabBarController.h */,
+				D1D0D669232B04D9002FC183 /* profile.h */,
+				D1D0D66A232B04D9002FC183 /* profile.m */,
+				D1D0D672232B1DC5002FC183 /* AnnotationClass.m */,
+				D1D0D674232B1DD5002FC183 /* AnnotationClass.h */,
+				D1D1388B232BCC59008DF185 /* Update.h */,
+				D1D1388C232BCC59008DF185 /* Update.m */,
+				D1D13891232C1371008DF185 /* AllUsers.h */,
+				D1D13892232C1371008DF185 /* AllUsers.m */,
 			);
 			path = fellowship;
 			sourceTree = "<group>";
@@ -230,6 +285,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D1CE557C23258B8E00E454AE /* Images.xcassets in Resources */,
+				D100A6D92325949900D9A1F1 /* Icon-60x60@3x.png in Resources */,
 				D1CE556E23258B8E00E454AE /* InfoPlist.strings in Resources */,
 				D1CE557723258B8E00E454AE /* Main.storyboard in Resources */,
 			);
@@ -250,9 +306,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1D1388D232BCC59008DF185 /* Update.m in Sources */,
+				D1D0D668232ADAC7002FC183 /* TabBarController.m in Sources */,
+				D1D0D662232A7A41002FC183 /* User.m in Sources */,
+				D1D0D665232A80EF002FC183 /* SignUP.m in Sources */,
 				D1CE557A23258B8E00E454AE /* JETSViewController.m in Sources */,
+				D1D0D65B232A6FFA002FC183 /* DB.m in Sources */,
+				D1D0D66B232B04D9002FC183 /* profile.m in Sources */,
+				D1D0D673232B1DC5002FC183 /* AnnotationClass.m in Sources */,
 				D1CE557423258B8E00E454AE /* JETSAppDelegate.m in Sources */,
 				D1CE557023258B8E00E454AE /* main.m in Sources */,
+				D1D13893232C1371008DF185 /* AllUsers.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,6 +525,7 @@
 				D1CE559423258B8E00E454AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D1CE559523258B8E00E454AE /* Build configuration list for PBXNativeTarget "fellowshipTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +534,7 @@
 				D1CE559723258B8E00E454AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
